@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MainLeaout.master.cs" Inherits="HR.MainLeaout" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="width: auto; background-color: #9CAAC1; color: #000000; font-size: xx-large; font-weight: bold; font-style: italic; text-transform: capitalize">
+     Management system
+    </div>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+   
+   <div style="background-color: #262D32">
+
+       &nbsp;&nbsp;&nbsp;&nbsp;
+       <asp:Menu ID="Menu1" runat="server" BackColor="#F7F6F3" 
+           DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="0.8em" 
+           ForeColor="#7C6F57" Orientation="Horizontal" StaticSubMenuIndent="10px">
+           <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+           <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+           <DynamicMenuStyle BackColor="#F7F6F3" />
+           <DynamicSelectedStyle BackColor="#5D7B9D" />
+           <Items>
+               <asp:MenuItem NavigateUrl="~/EmployeeInfoDetail.aspx" Text="Employe Detail" 
+                   Value="Employe Detail">
+                   <asp:MenuItem NavigateUrl="~/EmployInfoEntry.aspx" Text="Imployee Information" 
+                       Value="Imployee Information"></asp:MenuItem>
+               </asp:MenuItem>
+               <asp:MenuItem Text="Salary Information" Value="Salary Information" 
+                   NavigateUrl="~/SalaryInformation.aspx">
+               </asp:MenuItem>
+               <asp:MenuItem Text="Leave Information" Value="Leave Information" 
+                   NavigateUrl="~/LeaveInformation.aspx"></asp:MenuItem>
+           </Items>
+           <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+           <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+           <StaticSelectedStyle BackColor="#5D7B9D" />
+       </asp:Menu>
+
+   </div>
+    <div style="background-color: #C0C0C0" align="center">
+     Copyright &copy;
+    <%=DateTime.Now.Year %>
+
+    </div>
+    </form>
+</body>
+</html>

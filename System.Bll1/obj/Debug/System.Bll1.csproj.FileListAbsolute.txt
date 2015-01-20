@@ -1,0 +1,7 @@
+D:\shakil\HR\System.Bll1\bin\Debug\System.Bll1.dll
+D:\shakil\HR\System.Bll1\bin\Debug\System.Bll1.pdb
+D:\shakil\HR\System.Bll1\obj\Debug\System.Bll1.dll
+D:\shakil\HR\System.Bll1\obj\Debug\System.Bll1.pdb
+D:\shakil\HR\System.Bll1\bin\Debug\System.DAl.dll
+D:\shakil\HR\System.Bll1\bin\Debug\System.DAl.pdb
+D:\shakil\HR\System.Bll1\obj\Debug\System.Bll1.csprojResolveAssemblyReference.cache

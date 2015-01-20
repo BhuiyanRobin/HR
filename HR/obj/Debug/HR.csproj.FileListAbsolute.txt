@@ -1,0 +1,9 @@
+D:\shakil\HR\HR\bin\HR.dll
+D:\shakil\HR\HR\bin\HR.pdb
+D:\shakil\HR\HR\obj\Debug\HR.dll
+D:\shakil\HR\HR\obj\Debug\HR.pdb
+D:\shakil\HR\HR\bin\System.Bll1.dll
+D:\shakil\HR\HR\bin\System.Bll1.pdb
+D:\shakil\HR\HR\obj\Debug\HR.csprojResolveAssemblyReference.cache
+D:\shakil\HR\HR\bin\System.DAl.dll
+D:\shakil\HR\HR\bin\System.DAl.pdb

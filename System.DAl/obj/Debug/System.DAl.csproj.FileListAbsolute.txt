@@ -1,0 +1,5 @@
+D:\shakil\HR\System.DAl\bin\Debug\System.DAl.dll
+D:\shakil\HR\System.DAl\bin\Debug\System.DAl.pdb
+D:\shakil\HR\System.DAl\obj\Debug\System.DAl.dll
+D:\shakil\HR\System.DAl\obj\Debug\System.DAl.pdb
+D:\shakil\HR\System.DAl\obj\Debug\System.DAl.csprojResolveAssemblyReference.cache
